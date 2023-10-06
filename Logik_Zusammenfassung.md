@@ -1,1 +1,3 @@
-$\text{A stronger B} \iff A \implies B$
+$A \implies B \ \equiv \ \overline{A} \lor B$
+
+$\text{A stronger B} \ \equiv \ A \implies B$

@@ -222,7 +222,7 @@ They contain a blueprint of
 
 that a module must provide. While giving no instructions for the concrete implementation. 
 A module type is defined using the ```module type``` keyword and the ```sig``` keyword to open the body.
-The following example specifies a that a module implementing this type mus prove type ```t``` and a function ```f```:
+The following example specifies that a module implementing this type must provide a type ```t``` and a function ```f```:
 ```ocaml
 module type ModType = sig
     type t
