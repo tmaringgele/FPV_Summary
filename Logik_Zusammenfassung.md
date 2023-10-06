@@ -1,0 +1,1 @@
+$\text{A stronger B} \iff A \implies B$
