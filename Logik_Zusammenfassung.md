@@ -15,7 +15,7 @@ $\pmb{WP}[\![ x = expr ]\!](A) \equiv  A[expr/x]$
 
 $A[expr/x]$ means: replaces all occurences of x in A with the *right* part of the expression. \
 Example:
-![Alt text](image-3.png)
+![Alt text](material/image-3.png)
 
 
 $\pmb{WP}[\![ c ]\!](B_{false}, B_{true}) \equiv$ \
