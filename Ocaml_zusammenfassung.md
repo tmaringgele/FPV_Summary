@@ -180,7 +180,7 @@ Printing works by simply using f.e. ```print_string "Hallo Mama"```.
 
 
 ## I/O on Files
-## Writing to a file
+### Writing to a file
 ```ocaml
 (* Create an outputchannel*)
 let channel = open_out "db.txt" in
@@ -193,7 +193,7 @@ db.txt:
 ```txt 
 Name: Peter, Nummer: 3
 ```
-## Reading from a file
+### Reading from a file
 It is possible to read a file line by line as a string by using ```input_line```:
 
 ```ocaml

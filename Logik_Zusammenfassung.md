@@ -24,4 +24,6 @@ $(c \implies B_{true}) \land (\overline{c} \implies B_{false})$
 
 # Local Consistency
 <img src="image.png" width=20%> \
-$\text{A and B are loc. cons.} \equiv A \implies \pmb{WP}[\![ s ]\!](B) $
+$\text{A and B are loc. cons.} \equiv A \implies \pmb{WP}[\![ s ]\!](B) $ \
+$\equiv \pmb{SP}[\![ s ]\!](A) \implies B$ \
+Assertions generatet by the ```WP``` and ```SP``` operator are by default locally consistent.
