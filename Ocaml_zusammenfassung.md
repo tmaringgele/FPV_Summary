@@ -297,7 +297,7 @@ module Funct (Mod: ModType with type t = int) : ModType with type t = M.t = stru
     let f x = x + 2
 end
 ```
-
+Note that type parameters have to be se **3 times**.
 
 
 
