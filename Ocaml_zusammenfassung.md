@@ -302,3 +302,22 @@ Note that type parameters have to be se **3 times**.
 
 
 
+# Tail recursion
+In order to properly test tail recursiveness, you must run these tests inside ```OCAMLRUNPARAM=l=9000 utop```
+
+Tail recursive functions:
+* ```List.rev```
+
+**Not** tail recursive:
+* ```l1 @ l2```
+
+# Lazy Lists
+```ocaml 
+let lazy_seven = fun () -> 7;;
+lazy_seven ();;
+(* : int = 7 *)
+```
+
+```ocaml
+type 'a inf_list = Cons of 'a * (unit -> 'a inf_list)
+```
