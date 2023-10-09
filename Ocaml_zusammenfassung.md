@@ -303,7 +303,7 @@ Note that type parameters have to be se **3 times**.
 
 
 # Tail recursion
-In order to properly test tail recursiveness, you must run these tests inside ```OCAMLRUNPARAM=l=9000 utop```
+In order to properly test tail recursiveness, you must run tests inside ```OCAMLRUNPARAM=l=9000 utop```
 
 Tail recursive functions:
 * ```List.rev```
