@@ -310,6 +310,7 @@ Tail recursive functions:
 
 **Not** tail recursive:
 * ```l1 @ l2```
+* ```fold_right```
 
 # Lazy Lists
 ```ocaml 
